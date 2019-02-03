@@ -20,4 +20,4 @@
         mode: 0644
 
     - name: restart nginx
-      command: service nginx restart
+      command: systemctl restart nginx.service
