@@ -1,2 +1,2 @@
 [all_hosts]
-172.31.25.140
+node1 ansible_host=172.31.25.140 ansible_port=22
