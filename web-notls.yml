@@ -20,6 +20,4 @@
         mode: 0644
 
     - name: restart nginx
-      systemd:
-        name: nginx
-        state: restarted
+      command: service nginx restarted
