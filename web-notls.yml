@@ -8,6 +8,7 @@
         state: present
       vars:
         packages:
+        - epel-release
         - nginx
     
     - name: copy nginx config file
